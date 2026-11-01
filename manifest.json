@@ -1,0 +1,11 @@
+
+{
+  "name": "EduAura AI Learning Platform",
+  "short_name": "EduAura AI",
+  "description": "Multilingual education and offline learning platform",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f3fc",
+  "theme_color": "#5845d6"
+}

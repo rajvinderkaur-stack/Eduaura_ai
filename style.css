@@ -1,0 +1,49 @@
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#f4f3fc;color:#292541}
+header{background:white;padding:18px 6%;display:flex;justify-content:space-between;align-items:center;gap:12px}
+header h2{color:#6049d9}
+header span{background:#eeeaff;padding:4px;border-radius:6px}
+select,input{padding:13px;border:1px solid #ddd;border-radius:9px;background:white;max-width:100%}
+main{max-width:950px;margin:25px auto;padding:15px}
+.hero{background:linear-gradient(120deg,#5140c9,#9879ef);color:white;padding:45px 30px;border-radius:20px}
+.hero h1{font-size:clamp(30px,5vw,48px);margin:18px 0}
+.hero p{line-height:1.7}
+button{background:#634cdb;color:white;border:0;padding:12px 17px;border-radius:9px;margin:7px 3px;cursor:pointer}
+button:hover{opacity:.85}
+.hero button{background:white;color:#6049d9;margin-top:20px}
+.card{background:white;padding:22px;margin:22px 0;border-radius:16px;box-shadow:0 3px 15px #0000000b}
+.profile{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.card h2{margin-bottom:12px;color:#5845d6}
+.card p{line-height:1.7}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:15px 0}
+.stats div{background:#f0edff;text-align:center;padding:15px;border-radius:10px}
+.stats h2{font-size:25px}
+.stats p{font-size:13px}
+.track{height:10px;background:#eee;border-radius:20px;overflow:hidden}
+#progressBar{height:100%;width:0;background:#6b54df}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:15px}
+.course{background:white;color:#5543c5;padding:30px 12px;font-size:18px;box-shadow:0 3px 12px #ddd}
+#search{width:100%;margin:12px 0}
+#chat{background:#f5f3ff;padding:15px;border-radius:10px;margin:15px 0;min-height:80px}
+.bot{background:white;padding:12px;border-radius:10px;margin:8px 0}
+.user{background:#e5e0ff;padding:12px;border-radius:10px;margin:8px 0;text-align:right}
+#chatInput{width:75%}
+#lessonText{margin:18px 0}
+#answers button{display:block;width:100%;text-align:left;background:#eeeaff;color:#333}
+.tag{color:#7055d9;font-size:12px;margin-top:15px}
+hr{margin:20px 0;border:0;border-top:1px solid #eee}
+small{display:block;color:#777;margin-top:12px}
+footer{background:#28243e;color:white;text-align:center;padding:35px 12px;line-height:2}
+footer h2{color:#c5b9ff}
+[hidden]{display:none!important}
+@media(max-width:600px){
+main{padding:10px}
+.hero{padding:30px 20px}
+.grid{grid-template-columns:1fr}
+.profile{align-items:flex-start;flex-direction:column}
+.stats div{padding:10px 4px}
+.stats h2{font-size:20px}
+#chatInput{width:100%}
+}
+
+       
